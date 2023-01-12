@@ -1,0 +1,43 @@
+.cd-container{
+    width: 36%;
+    height: 100%;
+    padding: 2px 1rem;
+    
+    background-color: white;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: .4rem;
+    overflow: hidden;
+}
+
+.search-chats{
+    gap: .4rem;
+    display: flex;
+    height: 2.2rem;
+    padding: 0px 4px;
+    align-items: center;
+    border-radius: .4rem;
+    justify-content: flex-start;
+    border: 2px solid #f4f0f0;
+    border-bottom: 2px solid green;
+}
+
+.search-input{
+    width: 70%;
+    height: 90%;
+    outline: none;
+    border: none;
+}
+
+.search-svg{
+    height: 1.4rem;
+    width: 2rem;
+}
+
+.contacts{
+    width: 110%;
+    height: 100%;
+    overflow-y: scroll;
+}

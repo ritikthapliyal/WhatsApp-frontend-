@@ -1,0 +1,34 @@
+.contact-container{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    padding: .4rem 0;
+}
+.contact-container:hover{
+    background-color: #ebebebcc;
+    border-radius: .4rem;
+}
+
+.contact-profile-pic{
+    scale: .8;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top;
+    border: .1px solid rgb(186, 186, 186);
+}
+
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+.contact-info p{
+    color: #3d333394;
+}
+
+.date{
+    text-align: center;
+}

@@ -1,0 +1,12 @@
+.whatsapp-container{
+    
+    width: 54rem;
+    height: 36rem;
+    background-color: #fbf3edb0;
+
+
+    display: flex;
+    flex-direction: row;
+
+    border: .5px solid black;
+}

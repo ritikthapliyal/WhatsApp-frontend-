@@ -1,0 +1,28 @@
+.settings-container{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn{
+    width: 3.2rem;
+    height: 2.6rem;
+    border: none;
+    background-color: inherit;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #ebebebcc;
+}
+
+.btn-clicked{
+    border-left: 3px solid green;
+    background-color: #ebebebcc;
+    border-radius: .1rem;
+}
+
+svg{
+    width: 2rem;
+    height: 2rem;
+}
