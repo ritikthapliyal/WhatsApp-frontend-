@@ -35,7 +35,7 @@ function ContactInfoOverlay({data}){
 
             <div className='contactInfo-name-n-msg' style={{alignSelf: 'center'}}>
                 <p>About:</p>
-                <p style={{paddingLeft: '1rem',color:'black',marginBottom: '1rem'}}>(+91) {data.about}</p>
+                <p style={{paddingLeft: '1rem',color:'black',marginBottom: '1rem'}}>{data.about}</p>
             </div>
 
         </div>
