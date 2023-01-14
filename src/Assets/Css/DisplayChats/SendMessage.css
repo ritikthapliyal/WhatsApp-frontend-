@@ -1,0 +1,32 @@
+.sendMessage{
+    gap: 1rem;
+    height: 8%;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 -3px 6px -6px #393333;
+}
+
+.sendMessage svg{
+    width: 1.4rem;
+}
+
+.sendMessage input{
+    width: 72%;
+    height: 2rem;
+    border: none;
+    outline: none;
+    font-size: .9em;
+}
+
+.sendMessage button{
+    width: 2rem;
+    width: 3rem;
+    border: none;
+    transition: all 0.2s;
+}
+.sendMessage button:hover{
+    background-color: #c0bfbf96;
+}

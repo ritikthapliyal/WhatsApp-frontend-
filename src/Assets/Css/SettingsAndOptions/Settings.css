@@ -17,12 +17,12 @@
 }
 
 .btn-clicked{
-    border-left: 3px solid green;
-    background-color: #ebebebcc;
+    background-color: #fff8f870;
     border-radius: .1rem;
+    box-shadow: -1px 1px 4px #2bde42;
 }
 
-svg{
+.btn svg{
     width: 2rem;
     height: 2rem;
 }

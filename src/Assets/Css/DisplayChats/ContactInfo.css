@@ -1,0 +1,37 @@
+.contactInfo-container{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 2rem;
+    align-items: center;
+    height: 15%;
+    gap: .4rem;
+}
+.contactInfo-container img:hover{
+    cursor: pointer;
+}   
+
+.contactInfo-name-n-msg{
+    width: 60%;
+}
+.contactInfo-name-n-msg:hover{
+    cursor: pointer;
+}
+.contactInfo-name-n-msg p{
+    color: #82977e;
+    font-size: 0.9rem;
+}
+
+.contactInfo-btns{
+    width: 3rem;
+    border: none;
+    padding: .1rem;
+    background-color: inherit;
+}
+.contactInfo-btns:hover{
+    background-color: #ebebebcc;
+}
+
+.contactInfo-btns svg{
+    width: 1.8rem;
+    height: 1.8rem;
+}

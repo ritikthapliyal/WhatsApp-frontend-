@@ -1,0 +1,36 @@
+.dc-container{
+    width: 65%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dc-contact-info{
+    height: 12%;
+}
+
+.initial-window{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.initial-window img{
+    width: 5rem;
+    width: 5rem;
+    padding-bottom: 1rem;
+}
+.whatsapp-para{
+    font-size: 0.9rem;
+    color: #3d333394;
+}
+.whatsapp-header{
+    color: #000000c9;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}

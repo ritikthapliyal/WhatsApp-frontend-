@@ -1,7 +1,8 @@
 .cd-container{
     width: 36%;
     height: 100%;
-    padding: 2px 1rem;
+    padding: 10px 1rem;
+    padding-bottom: 1px;
     
     background-color: white;
 
@@ -10,12 +11,13 @@
 
     gap: .4rem;
     overflow: hidden;
+    /* box-shadow: 1px 0px 4px #0000006b; */
 }
 
 .search-chats{
     gap: .4rem;
     display: flex;
-    height: 2.2rem;
+    height: 2.8rem;
     padding: 0px 4px;
     align-items: center;
     border-radius: .4rem;
@@ -25,10 +27,11 @@
 }
 
 .search-input{
-    width: 70%;
+    width: 74%;
     height: 90%;
     outline: none;
     border: none;
+    font-size: 0.9rem;
 }
 
 .search-svg{
@@ -37,7 +40,23 @@
 }
 
 .contacts{
-    width: 110%;
+    gap: .4rem;
+    width: 111.5%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
     overflow-y: scroll;
+}
+
+.logo-container{
+    gap: .4rem;
+    display: flex;
+    font-size: .8rem;
+    padding-bottom: 1rem;
+    flex-direction: row;
+    align-items: center;
+}
+.logo{
+    width: 1.4rem;
+    height: 1.4rem;
 }

@@ -1,0 +1,27 @@
+.message-container{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.message-and-time{
+    gap: 1rem;
+    display: flex;
+    max-width: 70%;
+    width: fit-content;
+    min-height: 1.8rem;
+    padding: .5rem .4rem;
+    border-radius: .4rem;
+    flex-direction: row;
+    align-items: end;
+}
+
+.message{
+    max-width: 80%;
+}
+
+.time{
+    font-size: 0.7em;
+    color: #82977e; 
+    height: fit-content;  
+}

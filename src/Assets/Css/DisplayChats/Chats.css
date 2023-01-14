@@ -1,0 +1,6 @@
+.chats{
+    height: 80%;
+    width: 102.5%;
+    padding: 0px 10px;
+    overflow-y: scroll;
+}

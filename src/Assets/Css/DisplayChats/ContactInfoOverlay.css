@@ -1,0 +1,9 @@
+.contactInfoOverlay{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactInfoOverlay img{
+    width: 12rem;
+    height: 12rem;
+}
